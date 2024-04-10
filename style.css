@@ -1,0 +1,92 @@
+
+/* HERE IS NAVBAR SECTION */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOR ALL ANCHOR TAG */
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: skyblue;
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+
+nav ul li a{
+    font-size: x-large;
+    text-decoration: none;
+    
+}
+
+
+
+/* HERE IS HOMEPAGE, ABOUT US PAGE, CONTACT US PAGE SECTION */
+
+header{
+    background-color: red;
+    /* height: 80px; */
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 2px;
+}
+main{
+    background-color: gray;
+    height: 400px;
+}
+
+.main_content{
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: space-around;
+    padding:  3rem;
+    /* width: 1000px; */
+}
+
+.main_left_sec{
+    /* background-color: pink; */
+    /* width: 20px; */
+    font-size: xx-large;
+
+}
+.main_right_sec{
+    /* background-color: purple; */
+    /* width: 10px; */
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20PX;
+    /* padding-left: 50px; */
+}
+
+figcaption{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+footer{
+    background-color: green;
+    /* height: 50px; */
+    text-align: center ;
+    padding: 1rem;
+}
